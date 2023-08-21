@@ -1,4 +1,4 @@
-# Email_Detection_Railway
+# Fake Email Detection
 
 This is a simple Streamlit web application that allows users to check if an email is likely to be spam or not using a pre-trained machine learning model. The app takes an input email from the user and provides a prediction along with the prediction probability.
 
@@ -16,11 +16,11 @@ pip install streamlit
 ### Installation
 - Clone the repository:
 ```bash
-git clone https://github.com/manas95826/Email_Detection_Railway.git
+git clone https://github.com/manas95826/fake_email_detection.git
 ```
 - Navigate to the project directory:
 ```bash
-cd Email_Detection_Railway
+cd fake_email_detection
 ```
 
 - Run the Streamlit app:
