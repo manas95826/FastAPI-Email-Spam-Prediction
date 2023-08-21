@@ -24,7 +24,7 @@ async def predict(item: Item):
     # Extract the input text from the request.
     text = item.text
     prediction = clf.predict([text])[0]  #If no [0], output= [1]/[0], get rid of array with this
-    probability = clf.predict_proba([text])[0]  #Similaryly with this, if not [0], output = [[0.2,0.8]]
+    probability = clf.predict_proba([text])[0]  #Similarly with this, if not [0], output = [[0.2,0.8]]
     return {"prediction": prediction, "probability": probability[prediction]}
 
 if __name__ == "__main__":
